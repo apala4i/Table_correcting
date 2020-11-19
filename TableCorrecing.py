@@ -1,13 +1,31 @@
-def table_correcting(name):
+file_name = input('Input full path to file\n')
+
+
+def table_edit():
+    """
+    fix table
+    :return:
+    """
+    pass
+
+
+def table_creating():
+    """
+    create txt file with fixed table
+    :return:
+    """
+    pass
+
+
+def table_correcting():
     """
     main function that corrects given table and make new file with
     corrected table
-    :param name: given file name
-    :return:
+    :return: fixed table
     """
     global file_name
-    pass
+    table_edit()
+    table_creating()
 
-file_name = input('Write full path to file')
-table_correcting(file_name)
-print(file_name)
+
+table_correcting()
