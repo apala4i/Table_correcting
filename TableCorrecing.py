@@ -12,7 +12,7 @@ def table_edit():
     input_file = open(file_name, 'r', encoding='utf-8')
     input_file.readline()
     count_of_strokes = 0
-    # Read stroke of the table. replace "│" sights to -1, to
+    # Read string of the table. replace "│" sights to -1, to
     # make them easier to work with. Finding pozition of "│" sights
     current_stroke = [-1 if i == '│' else len(i) for i
                       in input_file.readline().replace('│', ' │ ').split()]
